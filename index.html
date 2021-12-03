@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Adit's Website</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -40,7 +40,7 @@
               <a class="nav-link" href="#about" style="color: white">About</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="#" style="color: white">Portfolio</a>
+              <a class="nav-link" href="#portfolio" style="color: white">Portfolio</a>
             </li>
           </ul>
         </div>
@@ -126,7 +126,7 @@
       </div>
     </div>
     <hr />
-    <div class="section3 mt-5">
+    <div class="section3 mt-5" id="portfolio">
       <div
         class="d-flex justify-content-center"
         data-aos="fade-up"
@@ -135,17 +135,13 @@
         <h2>Portfolio</h2>
       </div>
       <div
-        class="
-          d-flex
-          flex-wrap
-          justify-content-center
-          navbar-expand
-          category
-        "
+        class="d-flex flex-wrap justify-content-center navbar-expand category"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <ul class="navbar-nav categoryNav d-flex flex-wrap">
+        <ul
+          class="navbar-nav categoryNav d-flex flex-wrap justify-content-center"
+        >
           <li class="nav-item listCategory active" data-filter="all">All</li>
           <li class="nav-item listCategory" data-filter="website">Website</li>
           <li class="nav-item listCategory" data-filter="mobile">Mobile</li>
@@ -163,16 +159,48 @@
                 class="card-img-top img-fluid"
                 alt="..."
               />
-              <div class="card-body">
+              <div
+                class="
+                  card-body
+                  d-flex
+                  justify-content-between
+                  align-items-baseline
+                "
+              >
                 <p class="card-text">Traveland - WebApp</p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalTraveland"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
           <div class="col-md-4 itemBox website">
             <div class="card">
               <img src="image/gamespace.jpg" class="card-img-top img-fluid" />
-              <div class="card-body">
+              <div
+                class="
+                  card-body
+                  d-flex
+                  justify-content-between
+                  align-items-baseline
+                "
+              >
                 <p class="card-text">GameSpace - WebApp</p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalGamespace"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -183,8 +211,17 @@
                 class="card-img-top img-fluid"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body d-flex justify-content-between align-items-baseline">
                 <p class="card-text">Vacanza - WebApp</p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalVacanza"
+                >
+                  See more
+                </button>
               </div>
             </div>
           </div>
@@ -207,6 +244,213 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Traveland-->
+    <div
+      class="modal fade"
+      id="exampleModalTraveland"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Traveland</h5>
+                  <p style="text-indent: 40px">
+                    Traveland adalah sebuah website pemesanan tiket liburan
+                    secara online yang dibangun dengan bahasa PHP, framework
+                    Laravel serta Bootstrap 4. Seperti traveloka hanya saja
+                    lebih simple, yaitu pada menu utama kita bisa memilih tempat
+                    wisata yang ingin dituju, lalu memasukkan jumlah orang, hari
+                    dan setelah itu tekan tombol pesan, berikutnya customer akan
+                    mendapatkan nomor rekening untuk membayar tagihan tersebut,
+                    pemesanan tersebut akan dicek oleh admin untuk
+                    mengkonfirmasi pembayaran.
+                  </p>
+                  <div class="d-flex">
+                    <p class="languageList">PHP</p>
+                    <p class="languageList">Laravel</p>
+                    <p class="languageList">Bootstrap 4</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div>
+                    <img src="image/traveland.jpg" width="100%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL Traveland -->
+
+    <!-- Modal Traveland-->
+    <div
+      class="modal fade"
+      id="exampleModalTraveland"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Traveland</h5>
+                  <p style="text-indent: 40px">
+                    Traveland adalah sebuah website pemesanan tiket liburan
+                    secara online yang dibangun dengan bahasa PHP, framework
+                    Laravel serta Bootstrap 4. Seperti traveloka hanya saja
+                    lebih simple, yaitu pada menu utama kita bisa memilih tempat
+                    wisata yang ingin dituju, lalu memasukkan jumlah orang, hari
+                    dan setelah itu tekan tombol pesan, berikutnya customer akan
+                    mendapatkan nomor rekening untuk membayar tagihan tersebut,
+                    pemesanan tersebut akan dicek oleh admin untuk
+                    mengkonfirmasi pembayaran.
+                  </p>
+                  <div class="d-flex">
+                    <p class="languageList">PHP</p>
+                    <p class="languageList">Laravel</p>
+                    <p class="languageList">Bootstrap</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div>
+                    <img src="image/traveland.jpg" width="100%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL Traveland -->
+
+    <!-- Modal Gamespace-->
+    <div
+      class="modal fade"
+      id="exampleModalGamespace"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Gamespace</h5>
+                  <p style="text-indent: 40px">
+                    GameSpace adalah sebuah website pemesanan DVD game
+                    Playstation, Xbox, Steam, Nintendo secara online yang
+                    dibangun dengan bahasa Javascript, framework Tailwind CSS.
+                    Seperti Rajagame hanya saja lebih simple, website ini hanya
+                    tertera UI saja.
+                  </p>
+                  <div class="d-flex">
+                    <p class="languageList">Javascript</p>
+                    <p class="languageList">Tailwind CSS</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div>
+                    <img src="image/gamespace.jpg" width="100%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL Gamespace -->
+
+        <!-- Modal Vacanza-->
+        <div
+        class="modal fade"
+        id="exampleModalVacanza"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5>Vacanza</h5>
+                    <p style="text-indent: 40px">
+                      Vacanza adalah sebuah website pemesanan hotel secara online yang
+                      dibangun dengan bahasa Javascript, framework React JS.
+                      Seperti Rajagame hanya saja lebih simple, website ini hanya
+                      tertera UI saja.
+                    </p>
+                    <div class="d-flex">
+                      <p class="languageList">Javascript</p>
+                      <p class="languageList">React JS</p>
+                      <p class="languageList">Bootstrap 4</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <img src="image/vacanza.jpg" width="100%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MODAL Vacanza -->
+
     <hr class="mt-5" />
     <footer class="text-center">
       <!-- Copyright -->
@@ -216,6 +460,7 @@
       <!-- Copyright -->
     </footer>
 
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
