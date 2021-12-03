@@ -12,14 +12,14 @@
     background-attachment: fixed;
 }
 
-div .hero-image:after{
+.hero-image:after{
     content:'';
     display: block;
     background: url('../image/mask2.png');
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 45px;
+    height: 55px;
 
 }
 
