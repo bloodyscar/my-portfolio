@@ -140,6 +140,11 @@
         margin-left: 12px;
         margin-right: 12px;
     }
+    .hero-image:after{
+        content:'';
+        display: none;
+    
+    }
 }
 
 
